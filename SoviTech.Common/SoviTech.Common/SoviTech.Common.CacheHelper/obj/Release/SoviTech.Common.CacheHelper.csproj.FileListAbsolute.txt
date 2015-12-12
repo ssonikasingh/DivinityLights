@@ -1,0 +1,15 @@
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.CacheHelper\obj\Release\SoviTech.Common.CacheHelper.csprojResolveAssemblyReference.cache
+E:\Projects\2013\SoviTech\Lib\SoviTech.Common.CacheHelper.dll
+E:\Projects\2013\SoviTech\Lib\SoviTech.Common.CacheHelper.pdb
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.CacheHelper\obj\Release\SoviTech.Common.CacheHelper.dll
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.CacheHelper\obj\Release\SoviTech.Common.CacheHelper.pdb
+E:\vikas psnl\SovikIndus\SoviTech\Lib\SoviTech.Common.CacheHelper.dll
+E:\vikas psnl\SovikIndus\SoviTech\Lib\SoviTech.Common.CacheHelper.pdb
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.CacheHelper\obj\Release\SoviTech.Common.CacheHelper.csprojResolveAssemblyReference.cache
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.CacheHelper\obj\Release\SoviTech.Common.CacheHelper.dll
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.CacheHelper\obj\Release\SoviTech.Common.CacheHelper.pdb
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\Lib\SoviTech.Common.CacheHelper.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\Lib\SoviTech.Common.CacheHelper.pdb
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.CacheHelper\obj\Release\SoviTech.Common.CacheHelper.csprojResolveAssemblyReference.cache
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.CacheHelper\obj\Release\SoviTech.Common.CacheHelper.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.CacheHelper\obj\Release\SoviTech.Common.CacheHelper.pdb

@@ -1,0 +1,4 @@
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.Contracts\bin\Debug\SoviTech.Common.Contracts.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.Contracts\bin\Debug\SoviTech.Common.Contracts.pdb
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.Contracts\obj\Debug\SoviTech.Common.Contracts.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.Contracts\obj\Debug\SoviTech.Common.Contracts.pdb

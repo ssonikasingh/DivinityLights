@@ -1,0 +1,15 @@
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.DbHelper\obj\Release\SoviTech.Common.DatabaseHelper.csprojResolveAssemblyReference.cache
+E:\Projects\2013\SoviTech\Lib\SoviTech.Common.DatabaseHelper.dll
+E:\Projects\2013\SoviTech\Lib\SoviTech.Common.DatabaseHelper.pdb
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.DbHelper\obj\Release\SoviTech.Common.DatabaseHelper.dll
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.DbHelper\obj\Release\SoviTech.Common.DatabaseHelper.pdb
+E:\vikas psnl\SovikIndus\SoviTech\Lib\SoviTech.Common.DatabaseHelper.dll
+E:\vikas psnl\SovikIndus\SoviTech\Lib\SoviTech.Common.DatabaseHelper.pdb
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.DbHelper\obj\Release\SoviTech.Common.DatabaseHelper.csprojResolveAssemblyReference.cache
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.DbHelper\obj\Release\SoviTech.Common.DatabaseHelper.dll
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.DbHelper\obj\Release\SoviTech.Common.DatabaseHelper.pdb
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.DbHelper\obj\Release\SoviTech.Common.DatabaseHelper.csprojResolveAssemblyReference.cache
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.DbHelper\obj\Release\SoviTech.Common.DatabaseHelper.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\Lib\SoviTech.Common.DatabaseHelper.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\Lib\SoviTech.Common.DatabaseHelper.pdb
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.DbHelper\obj\Release\SoviTech.Common.DatabaseHelper.pdb

@@ -1,0 +1,21 @@
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.CommunicationHelper\obj\Release\SoviTech.Common.CommunicationHelper.csprojResolveAssemblyReference.cache
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.CommunicationHelper\bin\Release\SoviTech.Common.CommunicationHelper.dll
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.CommunicationHelper\bin\Release\SoviTech.Common.CommunicationHelper.pdb
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.CommunicationHelper\bin\Release\SoviTech.Common.Contracts.dll
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.CommunicationHelper\bin\Release\SoviTech.Common.dll
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.CommunicationHelper\bin\Release\SoviTech.Common.Contracts.pdb
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.CommunicationHelper\bin\Release\SoviTech.Common.pdb
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.CommunicationHelper\obj\Release\SoviTech.Common.CommunicationHelper.dll
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.CommunicationHelper\obj\Release\SoviTech.Common.CommunicationHelper.pdb
+E:\Projects\2013\SoviTech\Lib\SoviTech.Common.CommunicationHelper.dll
+E:\Projects\2013\SoviTech\Lib\SoviTech.Common.CommunicationHelper.pdb
+E:\vikas psnl\SovikIndus\SoviTech\Lib\SoviTech.Common.CommunicationHelper.dll
+E:\vikas psnl\SovikIndus\SoviTech\Lib\SoviTech.Common.CommunicationHelper.pdb
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.CommunicationHelper\obj\Release\SoviTech.Common.CommunicationHelper.csprojResolveAssemblyReference.cache
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.CommunicationHelper\obj\Release\SoviTech.Common.CommunicationHelper.dll
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.CommunicationHelper\obj\Release\SoviTech.Common.CommunicationHelper.pdb
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\Lib\SoviTech.Common.CommunicationHelper.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\Lib\SoviTech.Common.CommunicationHelper.pdb
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.CommunicationHelper\obj\Release\SoviTech.Common.CommunicationHelper.csprojResolveAssemblyReference.cache
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.CommunicationHelper\obj\Release\SoviTech.Common.CommunicationHelper.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.CommunicationHelper\obj\Release\SoviTech.Common.CommunicationHelper.pdb

@@ -1,0 +1,8 @@
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\bin\Debug\iYogi.Common.LoggingHelper.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\bin\Debug\iYogi.Common.LoggingHelper.pdb
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\bin\Debug\Autofac.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\bin\Debug\log4net.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\bin\Debug\Autofac.xml
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\bin\Debug\log4net.xml
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\obj\Debug\iYogi.Common.LoggingHelper.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\obj\Debug\iYogi.Common.LoggingHelper.pdb

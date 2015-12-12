@@ -1,0 +1,14 @@
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.Contracts\bin\Release\SoviTech.Common.Contracts.dll
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.Contracts\bin\Release\SoviTech.Common.Contracts.pdb
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.Contracts\obj\Release\SoviTech.Common.Contracts.dll
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.Contracts\obj\Release\SoviTech.Common.Contracts.pdb
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.Contracts\bin\Release\SoviTech.Common.Contracts.dll
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.Contracts\bin\Release\SoviTech.Common.Contracts.pdb
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.Contracts\obj\Release\SoviTech.Common.Contracts.csprojResolveAssemblyReference.cache
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.Contracts\obj\Release\SoviTech.Common.Contracts.dll
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.Contracts\obj\Release\SoviTech.Common.Contracts.pdb
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.Contracts\bin\Release\SoviTech.Common.Contracts.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.Contracts\bin\Release\SoviTech.Common.Contracts.pdb
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.Contracts\obj\Release\SoviTech.Common.Contracts.csprojResolveAssemblyReference.cache
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.Contracts\obj\Release\SoviTech.Common.Contracts.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.Contracts\obj\Release\SoviTech.Common.Contracts.pdb

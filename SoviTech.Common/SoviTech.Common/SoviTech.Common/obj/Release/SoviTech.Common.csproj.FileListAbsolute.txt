@@ -1,0 +1,9 @@
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common\bin\Release\SoviTech.Common.dll
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common\bin\Release\SoviTech.Common.pdb
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common\obj\Release\SoviTech.Common.dll
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common\obj\Release\SoviTech.Common.pdb
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common\bin\Release\SoviTech.Common.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common\bin\Release\SoviTech.Common.pdb
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common\obj\Release\SoviTech.Common.csprojResolveAssemblyReference.cache
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common\obj\Release\SoviTech.Common.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common\obj\Release\SoviTech.Common.pdb

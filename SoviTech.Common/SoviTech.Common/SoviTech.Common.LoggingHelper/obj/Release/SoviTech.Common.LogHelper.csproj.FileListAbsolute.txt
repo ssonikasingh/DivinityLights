@@ -1,0 +1,15 @@
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.LoggingHelper\obj\Release\SoviTech.Common.LogHelper.csprojResolveAssemblyReference.cache
+E:\Projects\2013\SoviTech\Lib\SoviTech.Common.LogHelper.dll
+E:\Projects\2013\SoviTech\Lib\SoviTech.Common.LogHelper.pdb
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.LoggingHelper\obj\Release\SoviTech.Common.LogHelper.dll
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.LoggingHelper\obj\Release\SoviTech.Common.LogHelper.pdb
+E:\vikas psnl\SovikIndus\SoviTech\Lib\SoviTech.Common.LogHelper.dll
+E:\vikas psnl\SovikIndus\SoviTech\Lib\SoviTech.Common.LogHelper.pdb
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.LoggingHelper\obj\Release\SoviTech.Common.LogHelper.csprojResolveAssemblyReference.cache
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.LoggingHelper\obj\Release\SoviTech.Common.LogHelper.dll
+E:\vikas psnl\SovikIndus\SoviTech\SoviTech.Common\SoviTech.Common.LoggingHelper\obj\Release\SoviTech.Common.LogHelper.pdb
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\Lib\SoviTech.Common.LogHelper.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\Lib\SoviTech.Common.LogHelper.pdb
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.LoggingHelper\obj\Release\SoviTech.Common.LogHelper.csprojResolveAssemblyReference.cache
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.LoggingHelper\obj\Release\SoviTech.Common.LogHelper.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.LoggingHelper\obj\Release\SoviTech.Common.LogHelper.pdb

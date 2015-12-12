@@ -1,0 +1,11 @@
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CacheHelper\bin\Debug\iYogi.Common.CacheHelper.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CacheHelper\bin\Debug\iYogi.Common.CacheHelper.pdb
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CacheHelper\bin\Debug\Autofac.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CacheHelper\bin\Debug\iYogi.Common.Contracts.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CacheHelper\bin\Debug\iYogi.Common.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CacheHelper\bin\Debug\iYogi.Common.Contracts.pdb
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CacheHelper\bin\Debug\iYogi.Common.pdb
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CacheHelper\bin\Debug\Autofac.xml
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CacheHelper\obj\Debug\iYogi.Common.CacheHelper.csprojResolveAssemblyReference.cache
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CacheHelper\obj\Debug\iYogi.Common.CacheHelper.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CacheHelper\obj\Debug\iYogi.Common.CacheHelper.pdb

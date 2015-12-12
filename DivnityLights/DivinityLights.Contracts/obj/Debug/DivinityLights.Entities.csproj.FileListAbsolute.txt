@@ -1,0 +1,4 @@
+E:\Sonika\DotNet\DivnityLights\DivnityLights\DivinityLights.Contracts\bin\Debug\DivinityLights.Entities.dll
+E:\Sonika\DotNet\DivnityLights\DivnityLights\DivinityLights.Contracts\bin\Debug\DivinityLights.Entities.pdb
+E:\Sonika\DotNet\DivnityLights\DivnityLights\DivinityLights.Contracts\obj\Debug\DivinityLights.Entities.dll
+E:\Sonika\DotNet\DivnityLights\DivnityLights\DivinityLights.Contracts\obj\Debug\DivinityLights.Entities.pdb

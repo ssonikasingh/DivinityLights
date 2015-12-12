@@ -1,0 +1,5 @@
+E:\iMantra\Code\iYogi.Common\iYogi.Common\bin\Debug\iYogi.Common.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common\bin\Debug\iYogi.Common.pdb
+E:\iMantra\Code\iYogi.Common\iYogi.Common\obj\Debug\iYogi.Common.csprojResolveAssemblyReference.cache
+E:\iMantra\Code\iYogi.Common\iYogi.Common\obj\Debug\iYogi.Common.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common\obj\Debug\iYogi.Common.pdb

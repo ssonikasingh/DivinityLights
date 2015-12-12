@@ -1,0 +1,5 @@
+E:\Sonika\DotNet\DivnityLights\DivnityLights\DivinityLights.Contracts\bin\Debug\DivinityLights.Contracts.dll
+E:\Sonika\DotNet\DivnityLights\DivnityLights\DivinityLights.Contracts\bin\Debug\DivinityLights.Contracts.pdb
+E:\Sonika\DotNet\DivnityLights\DivnityLights\DivinityLights.Contracts\obj\Debug\DivinityLights.Contracts.dll
+E:\Sonika\DotNet\DivnityLights\DivnityLights\DivinityLights.Contracts\obj\Debug\DivinityLights.Contracts.pdb
+E:\Sonika\DotNet\DivnityLights\DivnityLights\DivinityLights.Contracts\obj\Debug\DivinityLights.Contracts.csprojResolveAssemblyReference.cache

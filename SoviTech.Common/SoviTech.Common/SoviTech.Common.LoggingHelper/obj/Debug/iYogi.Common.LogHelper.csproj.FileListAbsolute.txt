@@ -1,0 +1,11 @@
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\bin\Debug\iYogi.Common.LogHelper.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\bin\Debug\iYogi.Common.LogHelper.pdb
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\bin\Debug\Autofac.xml
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\bin\Debug\log4net.xml
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\obj\Debug\iYogi.Common.LogHelper.csprojResolveAssemblyReference.cache
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\obj\Debug\iYogi.Common.LogHelper.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\obj\Debug\iYogi.Common.LogHelper.pdb
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\bin\Debug\Autofac.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\bin\Debug\iYogi.Common.Contracts.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\bin\Debug\log4net.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.LoggingHelper\bin\Debug\iYogi.Common.Contracts.pdb

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoviTech.Common", "SoviTech.Common\SoviTech.Common.csproj", "{1BE6F3F0-CC92-478A-8D0A-E6C9BAD1ECB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoviTech.Common.Contracts", "SoviTech.Common.Contracts\SoviTech.Common.Contracts.csproj", "{94BB4336-B957-48AD-B0F8-0D6395A2EA5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoviTech.Common.CommunicationHelper", "SoviTech.Common.CommunicationHelper\SoviTech.Common.CommunicationHelper.csproj", "{B982AFFA-7A30-4C21-8A99-4CC9D9E539C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoviTech.Common.DatabaseHelper", "SoviTech.Common.DbHelper\SoviTech.Common.DatabaseHelper.csproj", "{CAB6359D-466D-4B69-B190-02516A5801FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoviTech.Common.LogHelper", "SoviTech.Common.LoggingHelper\SoviTech.Common.LogHelper.csproj", "{61D790BD-0E5D-455F-A53D-1BB2D1993403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoviTech.Common.CacheHelper", "SoviTech.Common.CacheHelper\SoviTech.Common.CacheHelper.csproj", "{6972BE99-ABC6-4BEA-A7A2-82FA9E7290B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoviTech.Common.Encryption", "SoviTech.Common.Encryption\SoviTech.Common.Encryption.csproj", "{03614820-0F59-4490-8B3F-6377B69D254E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BE6F3F0-CC92-478A-8D0A-E6C9BAD1ECB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE6F3F0-CC92-478A-8D0A-E6C9BAD1ECB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE6F3F0-CC92-478A-8D0A-E6C9BAD1ECB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE6F3F0-CC92-478A-8D0A-E6C9BAD1ECB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BB4336-B957-48AD-B0F8-0D6395A2EA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BB4336-B957-48AD-B0F8-0D6395A2EA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BB4336-B957-48AD-B0F8-0D6395A2EA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BB4336-B957-48AD-B0F8-0D6395A2EA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B982AFFA-7A30-4C21-8A99-4CC9D9E539C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B982AFFA-7A30-4C21-8A99-4CC9D9E539C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B982AFFA-7A30-4C21-8A99-4CC9D9E539C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B982AFFA-7A30-4C21-8A99-4CC9D9E539C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB6359D-466D-4B69-B190-02516A5801FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB6359D-466D-4B69-B190-02516A5801FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB6359D-466D-4B69-B190-02516A5801FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB6359D-466D-4B69-B190-02516A5801FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D790BD-0E5D-455F-A53D-1BB2D1993403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D790BD-0E5D-455F-A53D-1BB2D1993403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D790BD-0E5D-455F-A53D-1BB2D1993403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D790BD-0E5D-455F-A53D-1BB2D1993403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6972BE99-ABC6-4BEA-A7A2-82FA9E7290B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6972BE99-ABC6-4BEA-A7A2-82FA9E7290B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6972BE99-ABC6-4BEA-A7A2-82FA9E7290B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6972BE99-ABC6-4BEA-A7A2-82FA9E7290B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03614820-0F59-4490-8B3F-6377B69D254E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03614820-0F59-4490-8B3F-6377B69D254E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03614820-0F59-4490-8B3F-6377B69D254E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03614820-0F59-4490-8B3F-6377B69D254E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = ..\packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;..\packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45;..\packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;..\packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
+	EndGlobalSection
+EndGlobal

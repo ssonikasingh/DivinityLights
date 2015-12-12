@@ -1,0 +1,10 @@
+E:\Projects\2013\SoviTech\SoviTech.Common\iYogi.Common.Encryption\obj\Release\SoviTech.Common.Encryption.csprojResolveAssemblyReference.cache
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.Encryption\bin\Release\SoviTech.Common.Encryption.dll
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.Encryption\bin\Release\SoviTech.Common.Encryption.pdb
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.Encryption\obj\Release\SoviTech.Common.Encryption.dll
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.Encryption\obj\Release\SoviTech.Common.Encryption.pdb
+E:\Projects\2013\SoviTech\SoviTech.Common\SoviTech.Common.Encryption\obj\Release\SoviTech.Common.Encryption.csprojResolveAssemblyReference.cache
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.Encryption\bin\Release\SoviTech.Common.Encryption.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.Encryption\bin\Release\SoviTech.Common.Encryption.pdb
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.Encryption\obj\Release\SoviTech.Common.Encryption.dll
+E:\Sonika\DotNet\DivnityLights\SoviTech.Common\SoviTech.Common\SoviTech.Common.Encryption\obj\Release\SoviTech.Common.Encryption.pdb

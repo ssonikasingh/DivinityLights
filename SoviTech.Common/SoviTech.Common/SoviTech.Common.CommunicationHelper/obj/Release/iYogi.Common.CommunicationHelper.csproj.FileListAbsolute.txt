@@ -1,0 +1,9 @@
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CommunicationHelper\bin\Release\iYogi.Common.CommunicationHelper.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CommunicationHelper\bin\Release\iYogi.Common.CommunicationHelper.pdb
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CommunicationHelper\bin\Release\iYogi.Common.Contracts.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CommunicationHelper\bin\Release\iYogi.Common.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CommunicationHelper\bin\Release\iYogi.Common.Contracts.pdb
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CommunicationHelper\bin\Release\iYogi.Common.pdb
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CommunicationHelper\obj\Release\iYogi.Common.CommunicationHelper.csprojResolveAssemblyReference.cache
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CommunicationHelper\obj\Release\iYogi.Common.CommunicationHelper.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.CommunicationHelper\obj\Release\iYogi.Common.CommunicationHelper.pdb

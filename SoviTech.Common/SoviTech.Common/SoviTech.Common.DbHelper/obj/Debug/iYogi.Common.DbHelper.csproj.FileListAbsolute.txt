@@ -1,0 +1,15 @@
+E:\iMantra\Code\iYogi.Common\iYogi.Common.DbHelper\obj\Debug\iYogi.Common.DbHelper.csprojResolveAssemblyReference.cache
+E:\iMantra\Code\iYogi.Common\iYogi.Common.DbHelper\bin\Debug\iYogi.Common.DbHelper.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.DbHelper\bin\Debug\iYogi.Common.DbHelper.pdb
+E:\iMantra\Code\iYogi.Common\iYogi.Common.DbHelper\bin\Debug\iYogi.Common.Contracts.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.DbHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.DbHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.DbHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.DbHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.DbHelper\bin\Debug\iYogi.Common.Contracts.pdb
+E:\iMantra\Code\iYogi.Common\iYogi.Common.DbHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\iMantra\Code\iYogi.Common\iYogi.Common.DbHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\iMantra\Code\iYogi.Common\iYogi.Common.DbHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.xml
+E:\iMantra\Code\iYogi.Common\iYogi.Common.DbHelper\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.xml
+E:\iMantra\Code\iYogi.Common\iYogi.Common.DbHelper\obj\Debug\iYogi.Common.DbHelper.dll
+E:\iMantra\Code\iYogi.Common\iYogi.Common.DbHelper\obj\Debug\iYogi.Common.DbHelper.pdb
