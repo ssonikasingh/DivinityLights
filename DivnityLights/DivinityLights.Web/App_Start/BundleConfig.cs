@@ -23,12 +23,15 @@ namespace DivinityLights.Web
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
+            //bundles.Add(new StyleBundle("~/Content/css").Include(
+            //          "~/Content/bootstrap.css",
+            //          "~/Content/site.css",  "~/Content/divinitylights.css", 
+            //          "~/Content/theme.css",
+            //          "~/Content/orange.css",
+            //          "~/Content/theme-responsive.css"));
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css", 
-                      "~/Content/theme.css",
-                      "~/Content/orange.css",
-                      "~/Content/theme-responsive.css"));
+                     "~/Content/bootstrap.css",
+                     "~/Content/site.css"));
         }
     }
 }
