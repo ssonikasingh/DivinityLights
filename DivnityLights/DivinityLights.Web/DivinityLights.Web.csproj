@@ -222,6 +222,7 @@
     <Content Include="Images\Sovitron.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\Divinity\view.home.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
