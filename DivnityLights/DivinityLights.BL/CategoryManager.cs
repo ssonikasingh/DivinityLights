@@ -40,12 +40,12 @@ namespace DivinityLights.BL
             }
             catch
             {
-                allCategories = new List<Category>() { new Category() { Id = 1, DisplayImagePath = "Architectural.jpg", DisplayName = "Architectural" },
-                                                       new Category() { Id = 1, DisplayImagePath = "Cabletrays.jpg", DisplayName = "Cabletrays" },
-                 new Category() { Id = 1, DisplayImagePath = "Designer.jpg", DisplayName = "Designer" },
-                 new Category() { Id = 1, DisplayImagePath = "Exit.jpg", DisplayName = "Exit" },
-                 new Category() { Id = 1, DisplayImagePath = "Facade.jpg", DisplayName = "Facade" },
-                 new Category() { Id = 1, DisplayImagePath = "Outdoor.jpg", DisplayName = "Outdoor" },};
+                allCategories = new List<Category>() { new Category() { Id = 1, DisplayImagePath = "Architectural.jpg", DisplayName = "Architectural", Main = true },
+                                                       new Category() { Id = 1, DisplayImagePath = "Cabletrays.jpg", DisplayName = "Cabletrays" , Main = true},
+                 new Category() { Id = 1, DisplayImagePath = "Designer.jpg", DisplayName = "Designer" , Main = true},
+                 new Category() { Id = 1, DisplayImagePath = "Exit.jpg", DisplayName = "Exit" , Main = true},
+                 new Category() { Id = 1, DisplayImagePath = "Facade.jpg", DisplayName = "Facade" , Main = true},
+                 new Category() { Id = 1, DisplayImagePath = "Outdoor.jpg", DisplayName = "Outdoor" , Main = true},};
             }
             
             ICollection<Category> categories = allCategories.Where(x => x.Main == true).Take(count).ToList();
