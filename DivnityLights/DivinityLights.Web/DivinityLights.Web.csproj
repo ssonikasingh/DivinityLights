@@ -182,11 +182,6 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\divinity-lights.css" />
     <Content Include="Content\divinity-responsive.css" />
-    <Content Include="Content\divinitylights.css" />
-    <Content Include="Content\orange.css" />
-    <Content Include="Content\settings.css" />
-    <Content Include="Content\theme-responsive.css" />
-    <Content Include="Content\theme.css" />
     <Content Include="DivinityImages\Arch Light 1.jpg" />
     <Content Include="DivinityImages\Arch Light 2.jpg" />
     <Content Include="DivinityImages\Designer Lights 1.jpg" />
@@ -194,7 +189,6 @@
     <Content Include="DivinityImages\Exit Light 1.jpg" />
     <Content Include="DivinityImages\Exit Light 2.jpg" />
     <Content Include="DivinityImages\Industrial Lights 1.jpg" />
-    <Content Include="DivinityImages\logo.png" />
     <Content Include="DivinityImages\Outdoor Light 1.jpg" />
     <Content Include="DivinityImages\Outdoor Light 2.jpg" />
     <Content Include="DivinityImages\Tech Lights 2.png" />
