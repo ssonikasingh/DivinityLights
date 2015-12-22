@@ -20,7 +20,7 @@ namespace DivinityLights.Web.Common
                     {
                         CategoryDisplayName = c.DisplayName,
                         CategoryId = c.Id,
-                        CategoryImagePath = ConfigurationManager.AppSettings[ConfigKeys.ImagePath].ToString() + c.DisplayImagePath
+                        CategoryImage = ConfigurationManager.AppSettings[ConfigKeys.ImagePath].ToString() + c.DisplayImage
                     })
                 };
             }

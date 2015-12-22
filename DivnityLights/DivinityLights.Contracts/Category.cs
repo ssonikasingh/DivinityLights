@@ -26,7 +26,7 @@ namespace DivinityLights.Entities
         /// <summary>
         /// 
         /// </summary>
-        public string DisplayImagePath { get; set; }
+        public string DisplayImage { get; set; }
 
         /// <summary>
         /// 

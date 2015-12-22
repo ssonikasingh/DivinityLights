@@ -42,7 +42,7 @@ namespace DivinityLights.DAL
                             var id = reader[StoredProcedures.GetCategories.ColumnNames.Id];
                             var name = reader[StoredProcedures.GetCategories.ColumnNames.Name];
                             var displayName = reader[StoredProcedures.GetCategories.ColumnNames.DisplayName];
-                            var displayImagePath = reader[StoredProcedures.GetCategories.ColumnNames.DisplayImagePath];
+                            var displayImage = reader[StoredProcedures.GetCategories.ColumnNames.DisplayImage];
                             var parentId = reader[StoredProcedures.GetCategories.ColumnNames.ParentId];
                             var main = reader[StoredProcedures.GetCategories.ColumnNames.Main];
 
@@ -58,8 +58,8 @@ namespace DivinityLights.DAL
                                 DisplayName = displayName != DBNull.Value
                                             ? Convert.ToString(displayName, CultureInfo.InvariantCulture)
                                             : String.Empty,
-                                DisplayImagePath = displayImagePath != DBNull.Value
-                                          ? Convert.ToString(displayImagePath, CultureInfo.InvariantCulture)
+                                DisplayImage = displayImage != DBNull.Value
+                                          ? Convert.ToString(displayImage, CultureInfo.InvariantCulture)
                                           : String.Empty,
                                 ParentCategoryId = parentId != DBNull.Value
                                           ? Convert.ToInt32(parentId, CultureInfo.InvariantCulture)

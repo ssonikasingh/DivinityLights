@@ -21,6 +21,6 @@ namespace DivinityLights.Web.Models
         /// <summary>
         /// Category image path to be shown on home page
         /// </summary>        
-        public string CategoryImagePath { get; set; }
+        public string CategoryImage { get; set; }
     }
 }

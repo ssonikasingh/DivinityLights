@@ -155,7 +155,9 @@ header div.search {
 }
 header h1.logo {
     float:left;
-    margin-bottom: -35px;
+    margin-bottom: -15px;
+    margin-left: 16px;
+    margin-top: -8px;
 }
 header nav ul.nav-top li a, header nav ul.nav-top li span {
     color: #999;
@@ -195,6 +197,10 @@ header {
     padding: 8px 0;
 }
 
+.navbar{
+    margin-bottom:10px;
+}
+
 .category-lst {
     width: 100%;
     background: #f6f6f6;
@@ -209,7 +215,6 @@ header {
 .category-lst li {
     margin: 15px;
     float: left;
-    border:1px solid #ff9205;
 }
 
 .category-lst li span {
@@ -232,7 +237,6 @@ header {
 }
 
 .home-categories {
-    border-top: medium dotted #ff9205;
     margin: 25px 0 25px;
 }
 

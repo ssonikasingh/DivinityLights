@@ -40,7 +40,7 @@ namespace DivinityLights.DAL
                 internal const string Id = "Id";
                 internal const string Name = "Name";
                 internal const string DisplayName = "DisplayName";
-                internal const string DisplayImagePath = "DisplayImagePath";
+                internal const string DisplayImage = "DisplayImage";
                 internal const string ParentId = "ParentId";
                 internal const string Main = "Main";
 
