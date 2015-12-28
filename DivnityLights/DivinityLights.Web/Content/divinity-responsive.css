@@ -1,38 +1,58 @@
 ﻿@media (max-width: 991px) {
     /* Social Icons */
-	header div.social-icons {
-		display: none;
-	}
+    header div.social-icons {
+        display: none;
+    }
 
-	/* Search  */
-	header div.search {
-		display: none;
-	}
+    /* Search  */
+    header div.search {
+        display: none;
+    }
+    
+    header h1.logo img{
+         height: 80px;
+         width: 200px;
+    }
+
+    .category-lst li img {
+        height: 208px;
+        width: 314px;
+    }
 }
+
 @media (max-width: 768px) {
-     header nav {
+    header nav {
         float: none;
     }
-   .nav-pills > li {
+
+    .nav-pills > li {
         float: right;
     }
+     header h1.logo img{
+        margin-left:1px;
+    }
 }
+
 @media (max-width: 500px) {
     /* Social Icons */
-	.nav-pills {
-		display: none;
-	}
+    .nav-pills {
+        display: none;
+    }
 }
+
 @media (max-width: 767px) {
-  .navbar-nav .open .dropdown-menu {
-    background-color: #ff9205;
-  }
-   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #fff;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #555;
-  background-color: #e7e7e7;
-  }
+    .navbar-nav .open .dropdown-menu {
+        background-color: #ff9205;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+   
 }

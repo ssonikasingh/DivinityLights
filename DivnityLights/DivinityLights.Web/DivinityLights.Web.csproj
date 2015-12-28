@@ -182,6 +182,12 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\divinity-lights.css" />
     <Content Include="Content\divinity-responsive.css" />
+    <Content Include="Content\font-awesome\css\font-awesome.css" />
+    <Content Include="Content\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Content\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Scripts\Divinity\plugins.js" />
+    <Content Include="Scripts\jquery.appear.js" />
+    <Content Include="Scripts\jquery.easing.js" />
     <Content Include="DivinityImages\Arch Light 1.jpg" />
     <Content Include="DivinityImages\Arch Light 2.jpg" />
     <Content Include="DivinityImages\Designer Lights 1.jpg" />
@@ -222,9 +228,14 @@
     <Content Include="Images\Sovitron.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\font-awesome\fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\Godaddy.pubxml" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\Divinity\divinity-lights.js" />
     <Content Include="Scripts\Divinity\view.home.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -237,6 +248,35 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Vendor\mediaelement\background.png" />
+    <Content Include="Vendor\mediaelement\bigplay.png" />
+    <Content Include="Vendor\mediaelement\bigplay.svg" />
+    <Content Include="Vendor\mediaelement\controls-ted.png" />
+    <Content Include="Vendor\mediaelement\controls-wmp-bg.png" />
+    <Content Include="Vendor\mediaelement\controls-wmp.png" />
+    <Content Include="Vendor\mediaelement\controls.png" />
+    <Content Include="Vendor\mediaelement\controls.svg" />
+    <Content Include="Vendor\mediaelement\DO NOT CHANGE THESE FILES. USE -src- FOLDER.txt" />
+    <Content Include="Vendor\mediaelement\flashmediaelement-cdn.swf" />
+    <Content Include="Vendor\mediaelement\flashmediaelement.swf" />
+    <Content Include="Vendor\mediaelement\jquery.js" />
+    <Content Include="Vendor\mediaelement\loading.gif" />
+    <Content Include="Vendor\mediaelement\mediaelement-and-player.js" />
+    <Content Include="Vendor\mediaelement\mediaelement-and-player.min.js" />
+    <Content Include="Vendor\mediaelement\mediaelement.js" />
+    <Content Include="Vendor\mediaelement\mediaelement.min.js" />
+    <Content Include="Vendor\mediaelement\mediaelementplayer.css" />
+    <Content Include="Vendor\mediaelement\mediaelementplayer.js" />
+    <Content Include="Vendor\mediaelement\mediaelementplayer.min.css" />
+    <Content Include="Vendor\mediaelement\mediaelementplayer.min.js" />
+    <Content Include="Vendor\mediaelement\mejs-skins.css" />
+    <Content Include="Vendor\mediaelement\silverlightmediaelement.xap" />
+    <Content Include="Vendor\owl-carousel\AjaxLoader.gif" />
+    <Content Include="Vendor\owl-carousel\grabbing.png" />
+    <Content Include="Vendor\owl-carousel\owl.carousel.css" />
+    <Content Include="Vendor\owl-carousel\owl.carousel.js" />
+    <Content Include="Vendor\owl-carousel\owl.theme.css" />
+    <Content Include="Vendor\owl-carousel\owl.transitions.css" />
     <Content Include="Vendor\rs-plugin\assets\arrowleft.png" />
     <Content Include="Vendor\rs-plugin\assets\arrowright.png" />
     <Content Include="Vendor\rs-plugin\assets\arrow_large_left.png" />
@@ -292,6 +332,7 @@
     <Content Include="Vendor\rs-plugin\videojs\video-js.swf" />
     <Content Include="Vendor\rs-plugin\videojs\video.dev.js" />
     <Content Include="Vendor\rs-plugin\videojs\video.js" />
+    <Content Include="Videos\men-in-black.mp4" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -341,6 +382,7 @@
     <Content Include="Vendor\rs-plugin\videojs\font\vjs.woff" />
     <Content Include="Views\Shared\_LayoutDivinity.cshtml" />
     <Content Include="Views\Product\Index.cshtml" />
+    <Content Include="Videos\men-in-black.ogv" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
