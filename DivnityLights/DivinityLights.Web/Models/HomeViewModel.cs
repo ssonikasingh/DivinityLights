@@ -1,12 +1,17 @@
 ﻿using System.Collections.Generic;
 namespace DivinityLights.Web.Models
 {
-    public class HomeViewModel 
+    public class HomeViewModel : BaseViewModel
     {
-        public List<HomeCategoryModel> HomeCategories { get; set; }
+        
     }
 
-    public class HomeCategoryModel
+    public class BaseViewModel 
+    {
+        public List<BaseCategoryModel> BaseCategories { get; set; }
+    }
+
+    public class BaseCategoryModel
     {
         /// <summary>
         /// Category Id

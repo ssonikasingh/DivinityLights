@@ -1,0 +1,52 @@
+﻿@using DivinityLights.Web.Common 
+@model DivinityLights.Web.Models.CatProdViewModel
+           
+
+@{
+    ViewBag.Title = "CategoryProducts";
+    Layout = "~/Views/Shared/_LayoutDivinity.cshtml";
+}
+
+@section scripts
+{
+<script type="text/javascript">
+    $(function () {
+        $('body').on('click', '#Products .pagination a', function (event) {
+            event.preventDefault();
+            console.log('page');
+          
+            var url = $(this).attr('href');
+            console.log(url);
+            $.ajax({
+                url: url,
+                success: function (result) {
+                    ChangeUrl('index', url);
+                    $('#Products').html(result);
+                }
+            });
+        });
+
+    });
+    function ChangeUrl(page, url) {
+        if (typeof (history.pushState) != "undefined") {
+            var obj = { Page: page, Url: url };
+            history.pushState(obj, obj.Page, obj.Url);
+        } else {
+            alert("Browser does not support HTML5.");
+        }
+    }
+  </script>
+    }
+<section class="page-top">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Products in @Model.CategoryName</h2>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container" id="Products">
+    @Html.Partial("_Products", Model)
+</div>

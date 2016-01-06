@@ -1,0 +1,43 @@
+﻿@using PagedList.Mvc
+@using DivinityLights.Web.Common 
+@model DivinityLights.Web.Models.CatProdViewModel
+
+<div class="row">
+@if (Model.ProductsPaged != null && Model.ProductsPaged.Count() > 0)
+{
+    <ul class="products product-thumb-info-list">      
+        @foreach (var product in Model.ProductsPaged)
+        {
+            <li class="col-md-2 product">
+                <span class="product-thumb-info">
+                    <a href="@Url.Action(Actions.Product, Controllers.ProductController, new { id = product.Id })">
+                        <span class="product-thumb-info-image">
+                            <span class="product-thumb-info-act">
+                                <span class="product-thumb-info-act-left"><em>View</em></span>
+                                <span class="product-thumb-info-act-right"><em><i class="glyphicon glyphicon-plus"></i> Details</em></span>
+                            </span>
+                            <img src="@Url.Content(product.Image)" class="img-responsive" alt="">
+                        </span>
+                    </a>
+                    <span class="product-thumb-info-content">
+                        <a href="#">
+                            <h4>@product.Name</h4>
+                            <span class="product-code">
+                                @product.Code
+                            </span>
+                        </a>
+                    </span>
+                </span>
+            </li>
+        }
+    </ul>
+    @Html.PagedListPager(Model.ProductsPaged, page => Url.Action(Actions.CategoryProducts, Controllers.ProductController, new { id = Model.CategoryId, page }))
+}
+else
+{
+    <div class="no-products">
+        <span>No Products in this category</span>
+    </div>
+}
+</div>
+

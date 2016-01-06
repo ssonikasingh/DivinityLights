@@ -28,6 +28,16 @@ namespace DivinityLights.BL
         }
 
         /// <summary>
+        /// Get Category by id
+        /// </summary>
+        /// <param name="categoryId"></param>
+        /// <returns></returns>
+        public static Category GetCategory(int categoryId)
+        {
+            return CategoryDbManager.GetCategory(categoryId);
+        }
+
+        /// <summary>
         /// Get All Categories
         /// </summary>
         /// <returns></returns>

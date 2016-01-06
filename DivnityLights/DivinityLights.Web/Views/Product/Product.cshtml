@@ -1,0 +1,50 @@
+﻿@model DivinityLights.Web.Models.ProductViewModel
+
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Views/Shared/_LayoutDivinity.cshtml";
+}
+
+<div class="container">
+    <hr class="short">
+    <div class="row">
+        <div class="col-md-6 product-img">
+            <img src="@Url.Content(Model.Image)" alt="Product Image"
+                 onclick="showLargeImagePanel();" />
+        </div>
+        <div class="col-md-6">
+
+            <div class="product-summary">
+
+                <h2 class="product-name"><strong>@Model.Name</strong></h2>
+                
+                <div class="product-code">
+                    <span>@Model.Code</span>
+                </div>
+                <p>
+                    <span>@Model.Desc</span>
+                </p>
+                <div>
+                    <span>@Html.LabelFor(m => m.Dimensions): </span><span>@Model.Dimensions</span>
+                </div>
+                <div>
+                    <span>@Html.LabelFor(m => m.LightSource): </span><span>@Model.LightSource</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="largeImgPanel" onclick="hideLargeImagePanel();">
+        <img id="largeImg" src="@Url.Content(Model.Image)"
+             style="height:100%; margin:0; padding:0;" />
+    </div>
+</div>
+
+<script type="text/javascript">
+    function showLargeImagePanel() {
+        $('#largeImgPanel').show();
+    }
+    function hideLargeImagePanel() {
+        $('#largeImgPanel').hide();
+    }
+</script>
+
