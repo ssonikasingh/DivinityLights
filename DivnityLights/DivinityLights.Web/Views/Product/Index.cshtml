@@ -1,7 +1,44 @@
-﻿
+﻿@model DivinityLights.Web.Models.ProductListViewModel
+@using DivinityLights.Web.Common 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Products";
+    Layout = "~/Views/Shared/_LayoutDivinity.cshtml";
+
 }
 
-<h2>Index</h2>
+@section scripts
+{
+    <script type="text/javascript">
+    $(function () {
+        $('body').on('click', '#Products .pagination a', function (event) {
+            event.preventDefault();
+            console.log('page');
 
+            var url = $(this).attr('href');
+            console.log(url);
+            $.ajax({
+                url: url,
+                success: function (result) {
+                    ChangeUrl('index', url);
+                    $('#Products').html(result);
+                }
+            });
+        });
+
+    });
+    function ChangeUrl(page, url) {
+        if (typeof (history.pushState) != "undefined") {
+            var obj = { Page: page, Url: url };
+            history.pushState(obj, obj.Page, obj.Url);
+        } else {
+            alert("Browser does not support HTML5.");
+        }
+    }
+    </script>
+
+
+}
+<div id="Products">
+    <hr class="short" />
+    @Html.Partial(@PartialViews.ListProducts, Model)
+</div>

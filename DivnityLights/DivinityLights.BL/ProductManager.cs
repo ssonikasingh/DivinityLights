@@ -30,5 +30,24 @@ namespace DivinityLights.BL
         {
             return ProductDbManager.GetProductsByCategory(categoryId);
         }
+
+        /// <summary>
+        /// Get All products
+        /// </summary>
+        /// <returns></returns>
+        public static ICollection<Product> GetProducts()
+        {
+            return ProductDbManager.GetProducts();
+        }
+
+        /// <summary>
+        /// Add Product
+        /// </summary>
+        /// <param name="product"></param>
+        /// <returns></returns>
+        public static string AddEditProduct(Product product)
+        {
+            return ProductDbManager.AddEditProduct(product);
+        }
     }
 }

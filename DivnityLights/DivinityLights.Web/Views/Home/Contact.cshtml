@@ -1,17 +1,69 @@
-﻿@{
-    ViewBag.Title = "Contact";
+﻿<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>  
+@{
+    ViewBag.Title = "Contact Us";
+
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<div class="container" id="Products">
+    <hr class="short" />
+    <div class="row">
+        <div class="col-md-5">
+            <h4 class="theme-color">Get in <strong>touch</strong></h4>
+            <p>You can send us message or simply mail us or call us anytime.</p>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
+            <hr>
+            <h4><strong class="theme-color">Corporate Office</strong></h4>
+            <ul class="list-unstyled">
+                <li>
+                    <div>
+                        <span class="contact-title"><i class="glyphicon glyphicon-map-marker"></i> <strong>Address:</strong></span>
+                        <span class="inline-block">SOVITRON <br /> 40/E1, Ground Floor <br />Sector -11, Near YMCA Chowk, <br />Faridabad, Haryana <br />  India- 121001</span>                       
+                    </div>
+                 </li>
+                <li>
+                    <div>
+                        <span class="contact-title"><i class="glyphicon glyphicon-phone"></i> <strong>Phone:</strong> </span>
+                        <span class="inline-block"> (981) 130-7578</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span class="contact-title"><i class="glyphicon glyphicon-envelope"></i> <strong>Email:</strong> </span>
+                        <span class="inline-block"><a href="mailto:shivraj@divinitylights.com">shivraj@divinitylights.com</a></span>
+                    </div>
+                 </li>
+            </ul>
+            <hr />
+            <h4><strong class="theme-color">Factory</strong></h4>
+            <ul class="list-unstyled">
+                <li>
+                    <div>
+                        <span class="contact-title"><i class="glyphicon glyphicon-map-marker"></i> <strong>Address:</strong></span>
+                        <span class="inline-block">SOVITRON <br />Plot # 7, Saroorpur-Nangla Industrial Area, <br /> Ballabhgarh-Sohna Road,<br /> Faridabad, Haryana,<br />  India- 121005</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span class="contact-title"><i class="glyphicon glyphicon-phone"></i> <strong>Phone:</strong> </span>
+                        <span class="inline-block">(959) 919-4810</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <span class="contact-title"><i class="glyphicon glyphicon-envelope"></i> <strong>Email:</strong> </span>
+                        <span class="inline-block"><a href="mailto:info@sovitron.com">info@sovitron.com</a></span>
+                    </div>
+                </li>
+            </ul>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+        </div>
+        <div class="col-md-7">
+            <div id="map_canvas" style="width: 640px; height: 480px;">
+            </div> 
+        </div>
+    </div>
+  
+
+
+</div>
+
+

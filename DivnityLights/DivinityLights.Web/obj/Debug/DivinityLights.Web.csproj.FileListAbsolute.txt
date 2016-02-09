@@ -152,3 +152,7 @@ E:\Sonika\DotNet\GitHub\DivinityLights\DivnityLights\DivinityLights.Web\bin\Micr
 E:\Sonika\DotNet\GitHub\DivinityLights\DivnityLights\DivinityLights.Web\obj\Debug\DivinityLights.Web.csprojResolveAssemblyReference.cache
 E:\Sonika\DotNet\GitHub\DivinityLights\DivnityLights\DivinityLights.Web\obj\Debug\DivinityLights.Web.dll
 E:\Sonika\DotNet\GitHub\DivinityLights\DivnityLights\DivinityLights.Web\obj\Debug\DivinityLights.Web.pdb
+E:\Sonika\DotNet\GitHub\DivinityLights\DivnityLights\DivinityLights.Web\bin\PagedList.dll
+E:\Sonika\DotNet\GitHub\DivinityLights\DivnityLights\DivinityLights.Web\bin\PagedList.Mvc.dll
+E:\Sonika\DotNet\GitHub\DivinityLights\DivnityLights\DivinityLights.Web\bin\PagedList.xml
+E:\Sonika\DotNet\GitHub\DivinityLights\DivnityLights\DivinityLights.Web\bin\PagedList.Mvc.xml

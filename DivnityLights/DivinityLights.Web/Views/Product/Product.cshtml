@@ -1,4 +1,5 @@
 ﻿@model DivinityLights.Web.Models.ProductViewModel
+@using DivinityLights.Web.Models
 
 @{
     ViewBag.Title = "Product";
@@ -6,23 +7,43 @@
 }
 
 <div class="container">
-    <hr class="short">
+    <hr class="short" />
     <div class="row">
         <div class="col-md-6 product-img">
-            <img src="@Url.Content(Model.Image)" alt="Product Image"
-                 onclick="showLargeImagePanel();" />
+            @if (Model.Images != null && Model.Images.Count > 0)
+            {
+                <div class="slider-container">
+                    <div class="slider" id="revolutionSlider">
+                        <ul>
+                            @foreach (ProductImagesViewModel img in Model.Images)
+                            {
+                                <li data-transition="fade" data-masterspeed="300" onclick='showLargeImagePanel("@Url.Content(img.Image)");' style="cursor:pointer;">
+
+                                    <img src="@Url.Content(img.Image)" data-bgfit="contain" data-bgposition="center center" data-bgrepeat="no-repeat" />
+
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <img src="@Url.Content(Model.Image)" alt="Product Image"
+                     onclick="showLargeImagePanel();" />
+            }
         </div>
         <div class="col-md-6">
 
             <div class="product-summary">
 
                 <h2 class="product-name"><strong>@Model.Name</strong></h2>
-                
+
                 <div class="product-code">
                     <span>@Model.Code</span>
                 </div>
                 <p>
-                    <span>@Model.Desc</span>
+                    <span>@Html.Raw(HttpUtility.HtmlDecode(Model.Desc))</span>
                 </p>
                 <div>
                     <span>@Html.LabelFor(m => m.Dimensions): </span><span>@Model.Dimensions</span>
@@ -30,21 +51,46 @@
                 <div>
                     <span>@Html.LabelFor(m => m.LightSource): </span><span>@Model.LightSource</span>
                 </div>
+                <div>
+                    <span>@Html.LabelFor(m => m.Material): </span><span>@Model.Material</span>
+                </div>
+                <div>
+                    <span>@Html.LabelFor(m => m.ColorTemperature): </span><span>@Model.ColorTemperature</span>
+                </div>
+                <div>
+                    <span>@Html.LabelFor(m => m.Wattage): </span><span>@Model.Wattage</span>
+                </div>
+                <div>
+                    <span>@Html.LabelFor(m => m.Mounting): </span><span>@Model.Mounting</span>
+                </div>
             </div>
         </div>
     </div>
-    <div id="largeImgPanel" onclick="hideLargeImagePanel();">
-        <img id="largeImg" src="@Url.Content(Model.Image)"
-             style="height:100%; margin:0; padding:0;" />
+
+    <div class="row">
+        <div class="col-md-12">
+            <div id="largeImgPanel" onclick="hideLargeImagePanel();">
+                <img id="largeImg" src="@Url.Content(Model.Image)" />
+            </div>
+        </div>
     </div>
+
+
 </div>
 
+<script src="@Url.Content("~/Vendor/rs-plugin/js/jquery.themepunch.plugins.min.js")"></script>
+<script src="@Url.Content("~/Vendor/rs-plugin/js/jquery.themepunch.revolution.min.js")"></script>
+<script src="@Url.Content("~/Scripts/Divinity/view.product.js")"></script>
+<link href="@Url.Content("~/Vendor/rs-plugin/css/settings.css")" rel="stylesheet" />
+
 <script type="text/javascript">
-    function showLargeImagePanel() {
+    function showLargeImagePanel(img) {
+        sliderApi.revpause();
+        $('#largeImg').attr('src', img);
         $('#largeImgPanel').show();
     }
     function hideLargeImagePanel() {
         $('#largeImgPanel').hide();
+        sliderApi.revresume();
     }
 </script>
-

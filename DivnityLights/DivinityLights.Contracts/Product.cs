@@ -16,7 +16,7 @@ namespace DivinityLights.Entities
         /// <summary>
         /// Category ID
         /// </summary>
-        public int CategoryId { get; set; }
+        public Category Category { get; set; } 
 
         /// <summary>
         /// Product name
@@ -36,7 +36,7 @@ namespace DivinityLights.Entities
         /// <summary>
         /// Product image
         /// </summary>
-        public string Image { get; set; }
+        public List<ProductImage> Images { get; set; }
 
         /// <summary>
         /// Product image
@@ -47,5 +47,25 @@ namespace DivinityLights.Entities
         /// Product lights source
         /// </summary>
         public string LightSource { get; set; }
+
+        /// <summary>
+        /// Product Material
+        /// </summary>
+        public string Material { get; set; }
+
+        /// <summary>
+        /// Product Color Temperature
+        /// </summary>
+        public string ColorTemperature { get; set; }
+
+        /// <summary>
+        /// Product Wattage
+        /// </summary>
+        public string Wattage { get; set; }
+
+        /// <summary>
+        /// Product Mounting
+        /// </summary>
+        public string Mounting { get; set; }
     }
 }

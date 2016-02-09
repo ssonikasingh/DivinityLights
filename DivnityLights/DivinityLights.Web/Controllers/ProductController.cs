@@ -10,15 +10,32 @@ using System.Web;
 using System.Web.Mvc;
 using PagedList;
 using System.Web.Configuration;
+using System.IO;
+using System.Configuration;
 
-namespace DivinityLights.Controllers
+namespace DivinityLights.Web.Controllers
 {
     public class ProductController : BaseController
     {
-        // GET: Product
-        public ActionResult Index()
+        [Authorize]
+        public ActionResult Index(int page = 1)
         {
-            return View();
+            ProductListViewModel model = null;
+
+            string productsPerPage = WebConfigurationManager.AppSettings[ConfigKeys.ProductsPerPage];
+            int pageSize = 0;
+            int.TryParse(productsPerPage, out pageSize);
+
+            List<Product> products = ProductManager.GetProducts().ToList();
+            model = DivinityConverter.ConvertToViewModel(products);
+
+
+            if (model != null && model.Products != null && model.Products.Count() > 0)
+                model.ProductsPaged = model.Products.ToPagedList(page, pageSize);
+
+            return Request.IsAjaxRequest()
+                ? (ActionResult)PartialView(PartialViews.ListProducts, model)
+                : View(Views.index, model);
         }
 
         // GET: Product/Details/5
@@ -52,24 +69,55 @@ namespace DivinityLights.Controllers
         }
 
         // GET: Product/Edit/5
-        public ActionResult Edit(int id)
+          [Authorize]
+        public ActionResult AddEdit(int id = 0)
         {
-            return View();
+            ProductViewModel model = null;
+            if (id > 0)
+            {
+                Product product = ProductManager.GetProduct(id);
+                model = DivinityConverter.ConvertToViewModel(product);
+            }
+            else
+            {
+                model = new ProductViewModel();
+            }
+
+            model.CategoryList = new SelectList(CategoryManager.GetCategories(), "Id", "Name");
+
+            return PartialView(PartialViews.AddEditProduct, model);
         }
 
         // POST: Product/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, FormCollection collection)
+        [Authorize]
+        public ActionResult AddEdit(ProductViewModel model, List<HttpPostedFileBase> fileUploads, int page)
         {
             try
             {
-                // TODO: Add update logic here
+                List<ProductImagesViewModel> lstimage = null;
+                if (fileUploads != null && fileUploads.Count > 0 && fileUploads[0] != null)
+                {
+                    lstimage = new List<ProductImagesViewModel>();
+                    foreach (HttpPostedFileBase image in fileUploads)
+                    {
+                        if (image != null)
+                        {
+                            var path = Path.Combine(Server.MapPath(ConfigurationManager.AppSettings[ConfigKeys.ImagePath].ToString()), image.FileName);
+                            image.SaveAs(path);
+                            lstimage.Add(new ProductImagesViewModel() { Image = image.FileName });
+                        }
+                    }
+                }
 
-                return RedirectToAction("Index");
+                Product product = DivinityConverter.ConvertToEntity(model, lstimage);
+                ProductManager.AddEditProduct(product);
+                return RedirectToAction(Actions.Index, new { page = page });
             }
             catch
             {
-                return View();
+                throw;
+                //return RedirectToAction(Actions.Index, new { page = page });
             }
         }
 
@@ -112,7 +160,7 @@ namespace DivinityLights.Controllers
                 model.ProductsPaged = model.Products.ToPagedList(page, pageSize);
 
             return Request.IsAjaxRequest()
-                ? (ActionResult)PartialView("_Products", model)
+                ? (ActionResult)PartialView(PartialViews.Products, model)
                 : View(Views.CategoryProducts, model);
         }
     }

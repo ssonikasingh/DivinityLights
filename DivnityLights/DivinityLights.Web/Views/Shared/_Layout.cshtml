@@ -1,107 +1,93 @@
-﻿<!DOCTYPE html>
-<html>
+﻿@using DivinityLights.Web.Common
+@using DivinityLights.Web.Models
+@model DivinityLights.Web.Models.BaseViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
-
-    <script src="@Url.Content("~/Scripts/jquery-1.10.2.min.js")"></script>   
-
+    <!-- Web Fonts  -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
     @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
 
-    <link href="@Url.Content("~/Content/settings.css")" rel="stylesheet" />
-    <link href="@Url.Content("~/Content/site.css")" rel="stylesheet" />
-    <link href="@Url.Content("~/Content/divinitylights.css")" rel="stylesheet" />
-    <link href="@Url.Content("~/Content/theme.css")" rel="stylesheet" />
-    <link href="@Url.Content("~/Content/theme-responsive.css")" rel="stylesheet" />
-    <link href="@Url.Content("~/Content/orange.css")" rel="stylesheet" />
+    <script src="@Url.Content("~/Scripts/jquery-1.10.2.min.js")"></script>
+    <link href="@Url.Content("~/Content/divinity-lights.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/divinity-responsive.css")" rel="stylesheet" />
+    @Styles.Render("~/Content/jquery-ui.min.css")
+    @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-     <div >
+    <div class="container">
         <header>
-            <div class="container">
-                <h1 class="logo">
-                    <a href="" id="HyperLink1"><img style="height:85px;width:285px" src="../Images/logo.png" id="logoimage"></a>
-                </h1>
-                <div class="search">
-                    <div method="get" action="page-search-results.aspx" id="searchForm" novalidate="novalidate">
-                        <div class="input-group">
-                            <input type="text" placeholder="Search..." id="q" name="q" class="form-control search">
-                            <span class="input-group-btn">
-                                <button type="submit" class="btn btn-default">
-                                    <i class="glyphicon glyphicon-search"></i>
-                                </button>
-                            </span>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <h1 class="logo">
+                        <a href="@Url.Action(Actions.Index, Controllers.HomeController)" id="HyperLink1"><img src="@Url.Content("~/Images/logo.png")" id="logoimage"></a>
+                    </h1>
+                    <div class="search">
+                        <div method="get" action="page-search-results.aspx" id="searchForm" novalidate="novalidate">
+                            <div class="input-group">
+                                <input type="text" placeholder="Search..." id="q" name="q" class="form-control search">
+                                <span class="input-group-btn">
+                                    <button type="submit" class="btn btn-default">
+                                        <i class="glyphicon glyphicon-search"></i>
+                                    </button>
+                                </span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <nav>
-                    <ul class="nav nav-pills nav-top">                        
-                        <li class="phone">
-                            <span><i class="glyphicon glyphicon-phone"></i>(981) 130-7578</span>
-                        </li>
-                    </ul>
-                </nav>
-                <button data-target=".nav-main-collapse" data-toggle="collapse" class="btn btn-responsive-nav btn-inverse">
-                    <i class="glyphicon glyphicon-menu-hamburger"></i>
-                </button>
-            </div>
-            <div class="navbar-collapse nav-main-collapse collapse">
-                <div class="container">
-                    <div class="social-icons">
-                        <ul class="social-icons">
-                            <li class="facebook"><a title="Facebook" target="_blank" href="https://www.facebook.com/divinitylights?ref=aymt_homepage_panel">Facebook</a></li>
-                            <li class="twitter"><a title="Twitter" target="_blank" href="http://www.twitter.com/">Twitter</a></li>
-                        </ul>
-                    </div>
-                    <nav class="nav-main mega-menu">
-                        <ul id="mainMenu" class="nav nav-pills nav-main">
-                            <li class="dropdown">
-                                <a href="" class="dropdown-toggle" id="HyperLink4">
-                                    Home
-                                </a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" id="HyperLink5">
-                                    Products
-                                    <i class="glyphicon glyphicon-menu-down"></i>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Decorative Lighting</a></li>
-                                    <li><a href="#">Commercial Lighting</a></li>
-                                </ul>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" id="lnkAboutUs">
-                                    About Us
-                                </a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" id="lnkCareer">
-                                    Career
-                                </a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" id="lnkContact">
-                                    Contact Us
-                                </a>
+                    <nav>
+                        <ul class="nav nav-pills nav-top">
+                            <li class="phone">
+                                <span><i class="glyphicon glyphicon-phone"></i>(981) 130-7578</span>
                             </li>
                         </ul>
                     </nav>
                 </div>
-            </div>
-
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav  navbar-right">
+                            <li class="active"><a href="@Url.Action(Actions.Index, Controllers.HomeController)">Home</a></li>                          
+                            <li><a href="@Url.Action(Actions.About,Controllers.HomeController)">About Us</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="@Url.Action(Actions.Contact, Controllers.HomeController)">Contact Us</a></li>
+                            <li>
+                                <div class="social-icons">
+                                    <ul class="social-icons">
+                                        <li class="facebook"><a title="Facebook" target="_blank" href="https://www.facebook.com/divinitylights?ref=aymt_homepage_panel">Facebook</a></li>
+                                        <li class="twitter"><a title="Twitter" target="_blank" href="http://www.twitter.com/">Twitter</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </nav>
         </header>
     </div>
-    
     <div class="container body-content">
-        @RenderBody()        
+        @RenderBody()
+        <div id="EditForm"></div>
     </div>
     <div>
-        <footer><div class="footer-ribon">
-    <span>Get in Touch</span>
-</div>
+        <footer>
+            <div class="footer-ribon">
+                <span>Get in Touch</span>
+            </div>
             <div class="footer-copyright">
                 <div class="container">
                     <div class="row">
@@ -116,8 +102,8 @@
                         <div class="col-md-4">
                             <nav id="sub-menu">
                                 <ul>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="@Url.Action(Actions.About,Controllers.HomeController)">About Us</a></li>
+                                    <li><a href="@Url.Action(Actions.Contact, Controllers.HomeController)">Contact Us</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -129,7 +115,13 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)   
+    @RenderSection("scripts", required: false)
 
+
+    <script src="@Url.Content("~/Scripts/jquery.easing.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery.appear.js")"></script>
+    <script src="@Url.Content("~/Scripts/Divinity/Initialize.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery-ui.min.js")"></script>
+    @Scripts.Render("~/Scripts/Divinity/divinity-lights.js")
 </body>
 </html>

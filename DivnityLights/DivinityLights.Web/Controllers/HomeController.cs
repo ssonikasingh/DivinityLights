@@ -27,16 +27,16 @@ namespace DivinityLights.Web.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            HomeViewModel model = new HomeViewModel();
 
-            return View();
+            return View(model);
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            HomeViewModel model = new HomeViewModel();
 
-            return View();
+            return View(model);
         }
     }
 }

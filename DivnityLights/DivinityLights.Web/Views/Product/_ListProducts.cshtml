@@ -1,0 +1,62 @@
+﻿@using PagedList.Mvc
+@using DivinityLights.Web.Common
+@model DivinityLights.Web.Models.ProductListViewModel
+
+<div class="product-list">
+    @if(Model != null && Model.Products != null && Model.Products.Count > 0)
+    {
+        <div class="lst-header">
+            <a class="btn btn-primary" onclick="OpenDialog(event, this)" id="0" href="#" url="/Product/AddEdit?page=@Model.ProductsPaged.PageNumber">Add Product</a>
+        </div>
+        <br />
+        if(Model.ProductsPaged != null && Model.ProductsPaged.Count() > 0)
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <th>Category Name</th>
+                        <th>Product Name</th>
+                        <th>Product Code</th>
+                        <th>Dimensions</th>
+                        <th>Light Source</th>
+                        <th>Material</th>
+                        <th>Color Temperature</th>
+                        <th>Wattage</th>
+                        <th>Mounting</th>
+                        <th>Image</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                @foreach(var product in Model.ProductsPaged)
+                {
+                    <tr>
+                        <td>@product.CategoryName</td>
+                        <td style="width:13%">@product.Name</td>
+                        <td>@product.Code</td>
+                        <td>@product.Dimensions</td>
+                        <td>@product.LightSource</td>
+                        <td>@product.Material</td>
+                        <td>@product.ColorTemperature</td>
+                        <td>@product.Wattage</td>
+                        <td>@product.Mounting</td>
+                        <td><img src="@Url.Content(product.Image)" /> </td>
+                        <td style="width:5%"><a onclick="OpenDialog(event, this)" id="@product.Id" href="#" url="/Product/AddEdit?page=@Model.ProductsPaged.PageNumber">Edit <br /> Product</a></td>
+                    </tr>
+                }
+            </table>
+            @Html.PagedListPager(Model.ProductsPaged, page => Url.Action(Actions.Index, Controllers.ProductController, new { page }))
+        }
+        else
+        {
+            <div class="no-products">
+                <span>No Product available</span>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="lst-header">
+            <a class="btn btn-primary" onclick="OpenDialog(event, this)" id="0" href="#" url="/Product/AddEdit?page=1">Add Product</a>
+        </div>
+    }
+</div>

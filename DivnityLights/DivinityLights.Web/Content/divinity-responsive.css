@@ -31,14 +31,42 @@
      header h1.logo img{
         margin-left:1px;
     }
+    .nav {
+        float: right;
+    }
+    .nav-pills > li {
+        float: none;
+        text-align: right;
+    }
+    header nav ul.nav-top li span {
+            margin-top: 0;
+    padding: 0;
+    }
 }
 
 @media (max-width: 500px) {
     /* Social Icons */
-    .nav-pills {
-        display: none;
+   .phone{
+       display:none !important;
+   }
+    div.product-img img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .tp-leftarrow{
+        left:0 !important;
+    }
+    .tp-rightarrow{
+        right:0 !important;
+    }
+    header h1.logo img{
+        height: 64px;
+    width: 150px;
+        margin-left: -25px;
     }
 }
+
 
 @media (max-width: 767px) {
     .navbar-nav .open .dropdown-menu {
@@ -54,5 +82,7 @@
         color: #555;
         background-color: #e7e7e7;
     }
-   
+   #largeImg{
+       width:90%;
+   }
 }
